@@ -30,7 +30,7 @@ FUNCTIONS:
         *ADD_USER: this function is used to add user to the library
         *BOOK_IN : this function gives the details of the book that are in library.
         *BOOK_OUT: this function give the info of the students who took the book and its return date.
- ->USER_SIGNIN:
+ ->USER_SIGNIN: this function allows the user to login and it contains the following functions.
         *SEARCH_BOOK: this function lets us to search a book and it also contains the following functions.
              -SEARCH_BY_AUTHOR: this function allows us to search book by author name.
              -SEARCH_BY_DOMAIN: this function allows us to search book by domain.
