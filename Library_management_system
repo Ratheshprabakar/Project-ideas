@@ -1,0 +1,46 @@
+FUNCTIONS:
+ ->ADD_BOOK
+ ->ADD_USER
+ ->ADMIN_SIGNIN
+ ->USER_SIGNIN
+ ->SEARCH_BOOK
+ ->SEARCH_BY_AUTHOR
+ ->SEARCH_BY_DOMAIN
+ ->SEARCH_BY_ISBN
+ ->SEARCH_BY_REVIEW
+ ->BOOK_REVIEW
+ ->BOOKS_OUT
+ ->BOOKS_IN
+ ->BOOK_POSITION_SET
+ ->GET_BOOK_POSITION
+ ->BOOK_AUTHOR
+ ->BOOK_ISBN
+ ->BOOK_DOMAIN
+ ->BOOK_NAME
+ 
+ 
+ USES OF FUNCTIONS:
+ ->ADMIN_SIGNIN: this function allows admin to signin to access sensitive data contents of the library.ADMIN_SIGN function contains the following functions.
+        *ADD_BOOK: this function is used to add book to the library. this function also contains the following functions.
+             -BOOK_NAME: this function is used to specify the book name.
+             -BOOK_AUTHOR: this function is used to specify the author of the book.
+             -BOOK_ISBN: this function is used to add Book's ISBN number.
+             -BOOK_DOMAIN: this function is used to add Book's domain .
+             -BOOK_POSITION_SET: this function is used to specify the book position in the library.
+        *ADD_USER: this function is used to add user to the library
+        *BOOK_IN : this function gives the details of the book that are in library.
+        *BOOK_OUT: this function give the info of the students who took the book and its return date.
+ ->USER_SIGNIN: this function allows the user to login and it contains the following functions.
+        *SEARCH_BOOK: this function lets us to search a book and it also contains the following functions.
+             -SEARCH_BY_AUTHOR: this function allows us to search book by author name.
+             -SEARCH_BY_DOMAIN: this function allows us to search book by domain.
+             -SEARCH_BY_ISBN: this function allows us to search book by ISBN.
+             -SEARCH_BY_REVIEW: this function allows us to search book by review.
+         *BOOK_IN: this function gives the details of the book that are in library.
+         *GET_BOOK_POSITION: this function is used to give the position of the book in the library.
+             
+        
+        
+      
+             
+             
