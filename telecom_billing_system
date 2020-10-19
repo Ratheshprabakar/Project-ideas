@@ -1,0 +1,20 @@
+FUNCTIONS :
+   ->ADD_NUMBER
+   ->COUNT_HOUR
+   ->COST_GENERATOR
+   ->BILL_GENERATOR
+   ->DATA_RECORD
+   ->SEARCH_RECORD
+   ->DELETE_RECORD
+
+
+
+
+USE OF FUNCTIONS:
+ 1.ADD_NUMBER: this function adds number to the record when the number is dialed.
+ 2.COUNT_HOUR: this function checks the time that he was connected in call.
+ 3.COST_GENERATOR: this function multpilies the rate per second and number of hour connected.
+ 4.BILL_GENERATOR: this function genertes bill.
+ 5.DATA_RECORD: this function is used to add the record to a file.
+ 6.SEARCH_RECORD: this function is used to search specific name in record.
+ 7.DELETE_RECORD: this function is used to delete name in record.
